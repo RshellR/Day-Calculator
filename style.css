@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1bdfae;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  font-size: 20px;
+  color: #413a3a;
+}
+
+.days-no {
+  border: none;
+  border-bottom: 2px solid #257049;
+  font-size: 1.25rem;
+  font-weight: 600;
+  width: 100%;
+}
+
+.days-no:focus {
+  outline: none;
+}
+
+span {
+  color: rgb(15, 12, 12);
+}
+
+.answer {
+  position: relative;
+}
+
+.button,
+.reset {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #193b7a;
+  color: wheat;
+  border: none;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #133168;
+}
+
+.button:active {
+  transform: scale(0.89);
+}
+
+.reset {
+  background-color: aliceblue;
+  color: #414040;
+  border: 1px solid #414040;
+  margin-top: 10px;
+}
+
+.reset:hover {
+  background-color: #133168;
+  color: wheat;
+  border: none;
+}
+
+.reset:active {
+  transform: scale(0.89);
+}
+
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .button,
+  .reset {
+    width: 100%;
+    text-align: center;
+  }
+}
